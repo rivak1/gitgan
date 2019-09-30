@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+.bg-info{
+	background-color: #bbf6ff!important;
+}
+
+.space {
+	padding:25px 25px;
+}
+
+.formPart {
+	background-color: #f5f9fa;
+}
+
+.textManage span a {
+	
+	text-decoration: none;
+	font-size:20px;
+	font-style: oblique;
+
+}
+
+#navbar{
+	position: sticky;
+}
+
+.error{
+	color: red;
+}
