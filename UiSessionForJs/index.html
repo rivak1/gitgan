@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Mansalva">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+  
+<div class="jumbotron container mt-4 bg-primary text-white">
+    <div class="container">
+      <h1>Welcome To Meta-Parking Registration</h1>      
+      <p>Enter your Following Details for Registration</p>
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-success" id="progress" style="width:0%"></div>
+    </div>
+  </div>
+   
+<div class="container">
+    <h2>Registration</h2>
+    <div class="card">
+      <div class="card-header card bg-success text-white">User Registration Form</div>
+      <div class="card-body">
+            <label id="label-filled" class="text-info">Hey user, Tell me your Name</label>
+      </div>
+
+      <div class="card-footer p-4">
+            <div class="input-group mb-3 p-4">
+                <input type="text" id="input-filled" class="form-control border border-success" placeholder="Enter here .....">
+                <div class="input-group-append">
+                    <input class="btn-primary btn-sm" id = "input-button" type="button" value="submit" onclick="validateData();">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/145375d6eb.js" crossorigin="anonymous"></script>
+</body>
+</html>
